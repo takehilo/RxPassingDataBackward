@@ -2,17 +2,17 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ShopSearchViewController: UIViewController {
+class ShopSearchViewController: BaseViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var vm: ShopSearchViewModel!
     let searchQueryStream = PublishSubject<String>()
 
+    let disposeBag = DisposeBag()
+
     var searchQuery: Driver<String> {
         return searchQueryStream.asDriver(onErrorJustReturn: "")
     }
-
-    private let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()

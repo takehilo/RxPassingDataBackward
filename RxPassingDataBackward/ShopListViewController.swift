@@ -2,7 +2,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ShopListViewController: UIViewController {
+class ShopListViewController: BaseViewController {
     @IBOutlet weak var tableView: UITableView!
 
     var vm: ShopListViewModel!
@@ -26,7 +26,7 @@ class ShopListViewController: UIViewController {
                 vc.vm = ShopSearchViewModel()
                 self.present(vc, animated: true)
 
-                vc.searchQuery.drive(self.vm.searchQueryObserver).disposed(by: self.disposeBag)
+                vc.searchQuery.drive(self.vm.searchQueryObserver).disposed(by: vc.disposeBag)
             })
             .disposed(by: disposeBag)
 
