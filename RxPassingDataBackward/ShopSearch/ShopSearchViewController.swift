@@ -6,7 +6,7 @@ class ShopSearchViewController: BaseViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var vm: ShopSearchViewModel!
-    let searchQueryStream = PublishSubject<String>()
+    private let searchQueryStream = PublishSubject<String>()
 
     let disposeBag = DisposeBag()
 
