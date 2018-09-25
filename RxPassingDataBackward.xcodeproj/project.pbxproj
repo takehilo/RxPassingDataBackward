@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0E2C5035CBEFDBF6C36A8D /* Pods_RxPassingDataBackward.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F3A2CF4A1D9702A084ED88 /* Pods_RxPassingDataBackward.framework */; };
 		6D209AA72154D07200F7D4D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D209AA62154D07200F7D4D4 /* AppDelegate.swift */; };
-		6D209AA92154D07200F7D4D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D209AA82154D07200F7D4D4 /* ViewController.swift */; };
+		6D209AA92154D07200F7D4D4 /* ShopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D209AA82154D07200F7D4D4 /* ShopListViewController.swift */; };
 		6D209AAC2154D07200F7D4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D209AAA2154D07200F7D4D4 /* Main.storyboard */; };
 		6D209AAE2154D07300F7D4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D209AAD2154D07300F7D4D4 /* Assets.xcassets */; };
 		6D209AB12154D07300F7D4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D209AAF2154D07300F7D4D4 /* LaunchScreen.storyboard */; };
+		6D209AB92154D1FC00F7D4D4 /* ShopSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D209AB82154D1FC00F7D4D4 /* ShopSearchViewController.swift */; };
+		6D209ABB2154D4EC00F7D4D4 /* ShopListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D209ABA2154D4EC00F7D4D4 /* ShopListViewModel.swift */; };
+		6D209ABF2154E2B800F7D4D4 /* ShopSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D209ABE2154E2B800F7D4D4 /* ShopSearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24B9421761E437BFC6559E28 /* Pods-RxPassingDataBackward.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPassingDataBackward.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxPassingDataBackward/Pods-RxPassingDataBackward.release.xcconfig"; sourceTree = "<group>"; };
 		6D209AA32154D07200F7D4D4 /* RxPassingDataBackward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxPassingDataBackward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D209AA62154D07200F7D4D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D209AA82154D07200F7D4D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D209AA82154D07200F7D4D4 /* ShopListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewController.swift; sourceTree = "<group>"; };
 		6D209AAB2154D07200F7D4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D209AAD2154D07300F7D4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D209AB02154D07300F7D4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D209AB22154D07300F7D4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D209AB82154D1FC00F7D4D4 /* ShopSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSearchViewController.swift; sourceTree = "<group>"; };
+		6D209ABA2154D4EC00F7D4D4 /* ShopListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewModel.swift; sourceTree = "<group>"; };
+		6D209ABE2154E2B800F7D4D4 /* ShopSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSearchViewModel.swift; sourceTree = "<group>"; };
+		B2F3A2CF4A1D9702A084ED88 /* Pods_RxPassingDataBackward.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPassingDataBackward.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA6C6D113FFB96246505789 /* Pods-RxPassingDataBackward.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPassingDataBackward.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxPassingDataBackward/Pods-RxPassingDataBackward.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0E2C5035CBEFDBF6C36A8D /* Pods_RxPassingDataBackward.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				6D209AA52154D07200F7D4D4 /* RxPassingDataBackward */,
 				6D209AA42154D07200F7D4D4 /* Products */,
+				A9F536CE67FEE1960C4AD735 /* Pods */,
+				E433A057DF74CA666CF38233 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,33 @@
 			isa = PBXGroup;
 			children = (
 				6D209AA62154D07200F7D4D4 /* AppDelegate.swift */,
-				6D209AA82154D07200F7D4D4 /* ViewController.swift */,
+				6D209AA82154D07200F7D4D4 /* ShopListViewController.swift */,
+				6D209ABA2154D4EC00F7D4D4 /* ShopListViewModel.swift */,
+				6D209AB82154D1FC00F7D4D4 /* ShopSearchViewController.swift */,
+				6D209ABE2154E2B800F7D4D4 /* ShopSearchViewModel.swift */,
 				6D209AAA2154D07200F7D4D4 /* Main.storyboard */,
 				6D209AAD2154D07300F7D4D4 /* Assets.xcassets */,
 				6D209AAF2154D07300F7D4D4 /* LaunchScreen.storyboard */,
 				6D209AB22154D07300F7D4D4 /* Info.plist */,
 			);
 			path = RxPassingDataBackward;
+			sourceTree = "<group>";
+		};
+		A9F536CE67FEE1960C4AD735 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAA6C6D113FFB96246505789 /* Pods-RxPassingDataBackward.debug.xcconfig */,
+				24B9421761E437BFC6559E28 /* Pods-RxPassingDataBackward.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E433A057DF74CA666CF38233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2F3A2CF4A1D9702A084ED88 /* Pods_RxPassingDataBackward.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D209AB52154D07300F7D4D4 /* Build configuration list for PBXNativeTarget "RxPassingDataBackward" */;
 			buildPhases = (
+				2B6593589C0C5BDE53765A40 /* [CP] Check Pods Manifest.lock */,
 				6D209A9F2154D07200F7D4D4 /* Sources */,
 				6D209AA02154D07200F7D4D4 /* Frameworks */,
 				6D209AA12154D07200F7D4D4 /* Resources */,
+				460EF4F3986802ECB4DA6153 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +165,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B6593589C0C5BDE53765A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxPassingDataBackward-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		460EF4F3986802ECB4DA6153 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxPassingDataBackward/Pods-RxPassingDataBackward-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxPassingDataBackward/Pods-RxPassingDataBackward-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D209A9F2154D07200F7D4D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D209AA92154D07200F7D4D4 /* ViewController.swift in Sources */,
+				6D209ABB2154D4EC00F7D4D4 /* ShopListViewModel.swift in Sources */,
+				6D209AA92154D07200F7D4D4 /* ShopListViewController.swift in Sources */,
+				6D209AB92154D1FC00F7D4D4 /* ShopSearchViewController.swift in Sources */,
 				6D209AA72154D07200F7D4D4 /* AppDelegate.swift in Sources */,
+				6D209ABF2154E2B800F7D4D4 /* ShopSearchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +367,7 @@
 		};
 		6D209AB62154D07300F7D4D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA6C6D113FFB96246505789 /* Pods-RxPassingDataBackward.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,13 +379,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.RxPassingDataBackward;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		6D209AB72154D07300F7D4D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B9421761E437BFC6559E28 /* Pods-RxPassingDataBackward.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +398,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.RxPassingDataBackward;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
