@@ -22,8 +22,7 @@ class ShopListViewController: BaseViewController {
 
         searchButton.rx.tap.asDriver()
             .drive(onNext: { [unowned self] _ in
-                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ShopSearchViewController") as! ShopSearchViewController
-                vc.vm = ShopSearchViewModel()
+                let vc = ViewControllerBuilder.shared.makeShopSearvhViewController()
                 self.present(vc, animated: true)
 
                 vc.searchQuery.drive(self.vm.searchQueryObserver).disposed(by: vc.disposeBag)

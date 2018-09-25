@@ -17,6 +17,7 @@
 		6D209ABB2154D4EC00F7D4D4 /* ShopListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D209ABA2154D4EC00F7D4D4 /* ShopListViewModel.swift */; };
 		6D209ABF2154E2B800F7D4D4 /* ShopSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D209ABE2154E2B800F7D4D4 /* ShopSearchViewModel.swift */; };
 		6D209AC12159B64200F7D4D4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D209AC02159B64200F7D4D4 /* BaseViewController.swift */; };
+		6D209AC32159D95400F7D4D4 /* ViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D209AC22159D95400F7D4D4 /* ViewControllerBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6D209ABA2154D4EC00F7D4D4 /* ShopListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewModel.swift; sourceTree = "<group>"; };
 		6D209ABE2154E2B800F7D4D4 /* ShopSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSearchViewModel.swift; sourceTree = "<group>"; };
 		6D209AC02159B64200F7D4D4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6D209AC22159D95400F7D4D4 /* ViewControllerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBuilder.swift; sourceTree = "<group>"; };
 		B2F3A2CF4A1D9702A084ED88 /* Pods_RxPassingDataBackward.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPassingDataBackward.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA6C6D113FFB96246505789 /* Pods-RxPassingDataBackward.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPassingDataBackward.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxPassingDataBackward/Pods-RxPassingDataBackward.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,17 +72,34 @@
 			isa = PBXGroup;
 			children = (
 				6D209AA62154D07200F7D4D4 /* AppDelegate.swift */,
-				6D209AA82154D07200F7D4D4 /* ShopListViewController.swift */,
-				6D209ABA2154D4EC00F7D4D4 /* ShopListViewModel.swift */,
-				6D209AB82154D1FC00F7D4D4 /* ShopSearchViewController.swift */,
-				6D209ABE2154E2B800F7D4D4 /* ShopSearchViewModel.swift */,
+				6D209AC22159D95400F7D4D4 /* ViewControllerBuilder.swift */,
 				6D209AC02159B64200F7D4D4 /* BaseViewController.swift */,
+				6D209AC52159DC9500F7D4D4 /* ShopSearch */,
+				6D209AC42159DC8600F7D4D4 /* ShopList */,
 				6D209AAA2154D07200F7D4D4 /* Main.storyboard */,
 				6D209AAD2154D07300F7D4D4 /* Assets.xcassets */,
 				6D209AAF2154D07300F7D4D4 /* LaunchScreen.storyboard */,
 				6D209AB22154D07300F7D4D4 /* Info.plist */,
 			);
 			path = RxPassingDataBackward;
+			sourceTree = "<group>";
+		};
+		6D209AC42159DC8600F7D4D4 /* ShopList */ = {
+			isa = PBXGroup;
+			children = (
+				6D209ABA2154D4EC00F7D4D4 /* ShopListViewModel.swift */,
+				6D209AA82154D07200F7D4D4 /* ShopListViewController.swift */,
+			);
+			path = ShopList;
+			sourceTree = "<group>";
+		};
+		6D209AC52159DC9500F7D4D4 /* ShopSearch */ = {
+			isa = PBXGroup;
+			children = (
+				6D209ABE2154E2B800F7D4D4 /* ShopSearchViewModel.swift */,
+				6D209AB82154D1FC00F7D4D4 /* ShopSearchViewController.swift */,
+			);
+			path = ShopSearch;
 			sourceTree = "<group>";
 		};
 		A9F536CE67FEE1960C4AD735 /* Pods */ = {
@@ -222,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D209AC32159D95400F7D4D4 /* ViewControllerBuilder.swift in Sources */,
 				6D209ABB2154D4EC00F7D4D4 /* ShopListViewModel.swift in Sources */,
 				6D209AA92154D07200F7D4D4 /* ShopListViewController.swift in Sources */,
 				6D209AB92154D1FC00F7D4D4 /* ShopSearchViewController.swift in Sources */,
